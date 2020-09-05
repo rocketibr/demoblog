@@ -1,3 +1,19 @@
 languageCode = "en-us"
 title = "Demo Blog"
 theme = "tale-hugo"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    title = "Sobre"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Notícias"
+    title = "Posts"
+    url = "/posts/"
+    weight = 0
+
+[Author]
+    name = "Pedro Davi"
